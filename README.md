@@ -20,6 +20,6 @@ python main.py C:\Path\model1 melanoma1.jpg melanoma2.jpg
 If it shows `malignant`, you should go to the hospital and do more tests for suitable treatments.
 
 ## Note!!!
-Using: This is just early-stage detection, you shouldn't misuse this model. 
+This is just early-stage detection, you shouldn't misuse this model. 
 
-With input images: Your image should be bright enough and you should crop the image to show the skin part that you suspect has cancer. If you put other objects in the image, the result won't be correct!
+Your image should be bright enough and you should crop the image to show the skin part that you suspect has cancer. If you put other objects in the image, the result won't be correct!
