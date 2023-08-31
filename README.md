@@ -9,6 +9,8 @@ I created 2 versions for the training. Use can use Kaggle to train this model or
 
 ## Using
 Run `main.py` with the following struct:
+- Have the path to the model folder
+- Have name of image files need to be checked
 
 And at the end, we have something like this
 ```
