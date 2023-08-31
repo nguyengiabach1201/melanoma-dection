@@ -17,6 +17,6 @@ model = tf.keras.models.load_model('C:/Users/Acer/Downloads/model1')
 
 class_names = ['benign', 'malignant']
 
-for i in range(1, n):
+for i in range(1, len(sys.argv)):
     predicted_class, confidence = predict(model,sys.argv[i],class_names)
     print(sys.argv[i], predicted_class, confidence)
