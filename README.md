@@ -1,5 +1,5 @@
 # Melanoma Detection
-Detect early-stage of skin cancer
+Detect early-stage of melanoma skin cancer
 
 ## Dataset
 I used a dataset on Kaggle which you can find [here](https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images).
@@ -22,4 +22,4 @@ If it shows `malignant`, you should go to the hospital and do more tests for sui
 ## Note!!!
 This is just early-stage detection, you shouldn't misuse this model. 
 
-Your image should be bright enough and you should crop the image to show the skin part that you suspect has cancer. If you put other objects in the image, the result won't be correct!
+Your image should be bright enough and you should crop the image to show the skin part that you suspect has melanoma cancer. If you put other objects in the image, the result won't be correct!
