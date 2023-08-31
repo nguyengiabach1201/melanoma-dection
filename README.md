@@ -7,3 +7,4 @@ I used a dataset on Kaggle which you can find [here](https://www.kaggle.com/data
 ## Training
 I created 2 versions for the training. Use can use Kaggle to train this model or use your own PC (but I think you should you Kaggle because of its durability and convenience)
 
+## Using
