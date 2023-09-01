@@ -33,19 +33,10 @@ def get_dataset_partitions_tf(ds, train_split=0.9, val_split=0.1, shuffle=True, 
 
     return train_ds, val_ds
 
-test_ds = tf.keras.preprocessing.image_dataset_from_directory(
-    "./melanoma-skin-cancer-dataset-of-10000-images/melanoma_cancer_dataset/test",
-    seed=123,
-    shuffle=True,
-    image_size=(IMAGE_SIZE,IMAGE_SIZE),
-    batch_size=BATCH_SIZE
-)
-
 train_ds, val_ds = get_dataset_partitions_tf(dataset)
 
 train_ds = train_ds.cache().shuffle(1000).prefetch(buffer_size=tf.data.AUTOTUNE)
 val_ds = val_ds.cache().shuffle(1000).prefetch(buffer_size=tf.data.AUTOTUNE)
-test_ds = test_ds.cache().shuffle(1000).prefetch(buffer_size=tf.data.AUTOTUNE)
 
 from tensorflow.keras import models, layers
 resize_and_rescale = tf.keras.Sequential([
